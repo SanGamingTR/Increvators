@@ -1,0 +1,64 @@
+* {
+  color: rgb(175, 175, 175);
+  font-weight: bold;
+}
+* body {
+  margin: 0;
+}
+* body main {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.character-stats {
+  background-color: rgb(21, 21, 39);
+  width: 20rem;
+  padding: 1rem;
+  border-right: 3px solid rgb(15, 15, 27);
+}
+.character-stats img {
+  border: 3px solid rgb(15, 15, 27);
+}
+.character-stats h2 {
+  background-color: rgb(15, 15, 27);
+  text-align: center;
+  color: rgb(175, 175, 175);
+}
+.character-stats ul {
+  padding: 0;
+}
+.character-stats ul li {
+  list-style-type: none;
+}
+.character-stats ul li img {
+  width: 4rem;
+}
+.character-stats ul li p {
+  margin-left: 1rem;
+}
+.character-stats .icon-next-to-value {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-page {
+  background-color: rgb(47, 47, 87);
+  width: 100vw;
+}
+.main-page nav {
+  padding: 1rem;
+  border-bottom: 2px solid rgb(21, 21, 39);
+}
+.main-page nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.main-page nav ul li.settings {
+  margin-left: auto;
+}
+.main-page nav ul li {
+  list-style-type: none;
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */
