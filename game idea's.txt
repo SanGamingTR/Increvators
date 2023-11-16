@@ -1,0 +1,23 @@
+browser incremental cultivation game.
+
+cultivation. - cultivate to get qi. get a certain amount of qi to break through.
+
+randomly generated character stats at the start - non-cheaty gameplay. (later there will be a way to start with a custom character - sandbox).
+
+strength - affects weapons use, damage dealt and taken.
+intelligence - affects qi cap and alchemy skill gain.
+talent - speed of learning.
+spirit - mental strength.
+
+fighting - enemies will be of a certain faction. If you defeat them you can choose to either leave them or kill them. 
+(affects reputation, population of said faction will decrease).
+
+you go to the wilderness and a cooldown happens. (speed will affect this). after the cooldown a random chance of fighting or not will happen. 
+then the enemy will be randomly generated and will have a chance to be from a certain faction. Then their stats will be generated. 
+before the fight happens, there will be a choice, flee or fight. If you fight the fight will begin. Otherwise you will try to flee and if it fails, you will still fight.
+
+if you die ingame, you will reincarnate. Your previous stats will affect the starting stats of your reincarnation.
+
+there will be a shop where you buy books, weapons and armor. the manual will have to be learned before you can use it.
+
+alchemy - will add qi pills to the game. You can find herbs, use them to create pills. the pills will affect your stats either permanently or for a certain time period.

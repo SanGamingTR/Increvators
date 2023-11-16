@@ -1,0 +1,21 @@
+@use 'variables' as *;
+.main-page {
+    background-color: $main-page-bg-color;
+    width: 100vw;
+    nav {
+        padding: $page-padding;
+        border-bottom: $nav-border-width solid $nav-border-color;
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            li.settings {
+                margin-left: auto;
+            }
+            li {
+                list-style-type: none;
+                text-align: left;
+            }
+        }
+    }
+}

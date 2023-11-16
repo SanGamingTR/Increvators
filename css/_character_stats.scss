@@ -1,0 +1,31 @@
+@use 'variables' as *;
+.character-stats {
+    background-color: $character-stat-bg-color;
+    width: 20rem;
+    padding: $page-padding;
+    border-right: $stat-border-width solid $stat-border-color;
+    img {
+        border: $stat-border-width solid $stat-border-color;
+    }
+    h2 {
+        background-color: $stat-title-bg-color;
+        text-align: center;
+        color: $general-text-color;
+    }
+    ul {
+        padding: 0;
+        li {
+            list-style-type: none;
+            img {
+                width: 4rem;
+            }
+            p {
+                margin-left: 1rem;
+            }
+        }
+    }
+    .icon-next-to-value {
+        display: flex;
+        flex-direction: row;
+    }
+}

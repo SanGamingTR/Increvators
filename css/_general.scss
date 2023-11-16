@@ -1,0 +1,13 @@
+@use 'variables' as *;
+* {
+    color: $general-text-color;
+    font-weight: bold;
+    body {
+        margin: 0;
+        main {
+            display: flex;
+            flex-direction: row;
+            height: 100vh;
+        }
+    }
+}

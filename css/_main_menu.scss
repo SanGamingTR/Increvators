@@ -1,0 +1,35 @@
+@use 'variables' as *;
+body {
+    margin: 0;
+    background-color: $menu-bg-color;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    main {
+        background-color: $menu-main-bg-color;
+        padding: $page-padding;
+        text-align: center;
+        width: 40rem;
+        h1 {
+            font-size: 4rem;
+            color: $menu-text-color;
+            font-weight: bold;
+        }
+        p {
+            background-color: $menu-button-color;
+            margin-left: 12rem;
+            margin-right: 12rem;
+            height: 3rem;
+            color: $menu-text-color;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a {
+                color: $menu-text-color;
+                text-decoration: none;
+            }
+        }
+    }
+}
